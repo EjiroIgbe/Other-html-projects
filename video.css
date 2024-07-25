@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.video-container{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vw;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+    object-fit: fill;
+    background-size: cover;
+    background-position: center;
+}
+
+input{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: blueviolet;
+    row-gap: 80px;
+}
+
+.input-field{
+    padding: 5px;
+    border-radius: 2px;
+    border: 2px solid #6b2b2b;
+    outline: none;
+    display: block;
+    width: 40%;
+    margin: 5px 0 10px;
+}
+
+}
+
+button{
+    font-size: 40px;
+    border: none;
+    align-content: center;
+    border-width: 20px;
+}
+
+legend{
+    display: block;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid green;
+    background-color: orangered;
+    color: white;
+}
